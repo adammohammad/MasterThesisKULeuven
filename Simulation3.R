@@ -33,7 +33,6 @@ iForm = list(fixed = ~ 0 + group:time +Covariate:time + group:ins(time, knots=c(
              indFixed = 1:9, random = ~ 0 + time + ins(time, knots=c(2.5, 9), B = c(0, 25)), 
              indRandom = 1:4)
 
-
 data1=alldata
 
 myresults=list()
