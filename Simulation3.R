@@ -40,7 +40,6 @@ myresults=list()
 #registerDoParallel(cores=cn)
 registerDoParallel(cores=7L)
 myresults=foreach(r=1:1050)%dopar%{
-  try({
   library(nlme)
   library(survival)
   library(JMbayes)
@@ -73,7 +72,7 @@ myresults=foreach(r=1:1050)%dopar%{
   result=list(result_model1=result_model1,result_model2=result_model2,result_model3=result_model3,
               result_landmarking=result_landmarking,time_model1=joint1$time[3],time_model2=joint2$time[3],
               time_model3=joint3$time[3],name=dat$name)
-  out=result},TRUE)
+  out=result
   
 }
 
