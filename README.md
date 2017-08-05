@@ -31,6 +31,6 @@ If a HPC Cluster (a "Supercomputer") is used for calculations, `Simulation3_HPC.
 Due to the fact that in high variance setting, some joint models do not converge, the HPC is preferred.
 
 ## Additional Resources
-*`Thesis_Simulation.Rproj` is a R project file for RStudio. 
-*`Literature Review.pdf` gives and overview of the available literature on the topic.
+* `Thesis_Simulation.Rproj` is a R project file for RStudio. 
+* `Literature Review.pdf` gives and overview of the available literature on the topic.
 
